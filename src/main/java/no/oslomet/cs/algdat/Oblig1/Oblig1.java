@@ -3,6 +3,7 @@ package no.oslomet.cs.algdat.Oblig1;
 ////// Løsningsforslag Oblig 1 ////////////////////////
 
 import java.lang.UnsupportedOperationException;
+import java.util.Arrays;
 import java.util.NoSuchElementException;
 
 public class Oblig1 {
@@ -162,12 +163,49 @@ public class Oblig1 {
 
     ///// Oppgave 5 //////////////////////////////////////
     public static void rotasjon(char[] a) {
-        throw new UnsupportedOperationException();
+        if (a.length == 1 || a.length == 0){
+            System.out.println(Arrays.toString(a));
+        }
+
+        int c = 1;
+        int n = a.length;  if (n < 2){
+            return;
+        }
+        if ((c %= n) < 0){
+            c += n;
+        }
+
+        char[] b = Arrays.copyOfRange(a, n - c, n);
+        for (int i = n - 1; i >= c; i--){
+            a[i] = a[i - c];
+        }
+        System.arraycopy(b, 0, a, 0, c);
+
+        System.out.println(Arrays.toString(a));
     }
 
     ///// Oppgave 6 //////////////////////////////////////
     public static void rotasjon(char[] a, int k) {
-        throw new UnsupportedOperationException();
+        int n = a.length;
+        final int maks = 100;
+        final int min = -100;
+
+        if (k > maks || k < min){ //om k  er større en maks og mindre enn k så returner
+            return;
+        }
+        if (n < 2){  //til arrayet har  2 elementer, blir returnert ingenting. siden det ikke gjør forskjell
+            return;
+        }
+        if ((k %= n) < 0){
+            k += n;
+        }
+
+        char[] b = Arrays.copyOfRange(a, n - k, n);
+        for (int i = n - 1; i >= k; i--){
+            a[i] = a[i - k];
+        }
+        System.arraycopy(b, 0, a, 0, k);
+        System.out.println(Arrays.toString(a));
     }
 
     ///// Oppgave 7 //////////////////////////////////////
