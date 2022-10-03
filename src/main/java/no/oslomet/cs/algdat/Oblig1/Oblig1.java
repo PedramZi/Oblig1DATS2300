@@ -208,6 +208,7 @@ public class Oblig1 {
         System.out.println(Arrays.toString(a));
     }
 
+
     ///// Oppgave 7 //////////////////////////////////////
     /// 7a)
     public static String flett(String s, String t) {
