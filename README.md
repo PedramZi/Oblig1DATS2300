@@ -11,6 +11,5 @@ I oppgaven har vi hatt følgende arbeidsfordeling:
 
 # Oppgavebeskrivelse
 
-I oppgave 1 så gikk vi frem ved å ...
-
-I oppgave 2 så brukte vi en ... til å ...
+Alle oppgavene har blitt forklart underveis på kommentarene. og ellers skulle det ha blitt forklart her også men har 
+dårlig tid så takker jeg meg selv
