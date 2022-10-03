@@ -296,12 +296,10 @@ public class Oblig1 {
     public static int[] tredjeMin(int[] a) {
         throw new UnsupportedOperationException();
     }
-
     ///// Oppgave 10 //////////////////////////////////////
     public static int bokstavNr(char bokstav) {
         throw new UnsupportedOperationException();
     }
-
     public static boolean inneholdt(String a, String b) {
         throw new UnsupportedOperationException();
     }
