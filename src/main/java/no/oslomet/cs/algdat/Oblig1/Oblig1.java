@@ -229,13 +229,68 @@ public class Oblig1 {
 
     /// 7b)
     public static String flett(String... s) {
-        throw new UnsupportedOperationException();
+        StringBuilder a = new StringBuilder();
+        int sum = 0;
+        int ord = 0;
+
+        for(String sjekk : s){                           //en for løkke som lopper gjennom s
+            StringBuilder sa = new StringBuilder(sjekk); //ny stringbygg sjekk
+            sum += sa.length();                          //sumen blir lengden til den ny stringen
+
+            if(sa.length() > ord){
+                ord = sa.length();
+            }
+        }
+
+        int teller = 0;
+        int i = 0;
+
+        while(teller < ord){                     //while løkke som gjør ... hvis teller er mindre enn ord
+            if(new StringBuilder(s[i]).length() > teller){
+                a.append(s[i].charAt(teller));
+            }
+
+            if(i == s.length-1){
+                teller++;
+                i = -1;                          //oppstart
+            }
+
+            i++;
+        }
+        return a.toString();
     }
 
     ///// Oppgave 8 //////////////////////////////////////
     public static int[] indekssortering(int[] a) {
-        throw new UnsupportedOperationException();
+        int aLength = a.length;
+
+        int[] indeks = new int[aLength];
+        int[] tmp = a.clone();
+
+        final int maks_val = Integer.MAX_VALUE;
+
+
+        for (int i = 0; i < aLength; i++) {
+
+            int min_indeks = findMin(tmp); //finner minste indeks
+            indeks[i] = min_indeks;
+            tmp[min_indeks] = maks_val; //bytter lavest med høyt tall
+        }
+        return indeks;
     }
+    public static int findMin(int[] a){
+        int min = a[0];        //hjelpevariabel for min
+        int min_indeks = 0;// settes minste til 0
+
+        for (int i = 0; i < a.length; i++){
+            if (a[i] < min){ //looper gjennom arrayet for å sammenlignne og finne den minste indeks i arrayet
+                min_indeks = i;
+                min = a[i];
+            }
+        }
+        return min_indeks;
+    }
+
 
     ///// Oppgave 9 //////////////////////////////////////
     public static int[] tredjeMin(int[] a) {
