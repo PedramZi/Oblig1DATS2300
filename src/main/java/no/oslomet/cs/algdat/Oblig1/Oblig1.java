@@ -212,7 +212,19 @@ public class Oblig1 {
     ///// Oppgave 7 //////////////////////////////////////
     /// 7a)
     public static String flett(String s, String t) {
-        throw new UnsupportedOperationException();
+            StringBuilder a = new StringBuilder();
+            String b = s + t;
+
+            for (int i = 0; i < b.length(); i++) { //går gjennom og setter ting i new StringBuilder
+                if (i < s.length()) {
+                    a.append(s.charAt(i));
+                }
+                if (i < t.length()) {
+                    a.append(t.charAt(i));
+                }
+            }
+
+            return a.toString();  // returnerer tostring a og t som  ble satt i StringBuilder
     }
 
     /// 7b)
