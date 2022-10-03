@@ -8,8 +8,9 @@ Oppgaven er levert av følgende student:
 
 I oppgaven har vi hatt følgende arbeidsfordeling:
 * Pedram har hatt hovedansvar for oppgave 1-8. alle har blitt testet også.
+* ![img.png](img.png)
 
 # Oppgavebeskrivelse
 
 Alle oppgavene har blitt forklart underveis på kommentarene. og ellers skulle det ha blitt forklart her også men har 
-dårlig tid så takker jeg meg selv
+dårlig tid så takker jeg meg selv.
