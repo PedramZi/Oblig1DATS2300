@@ -22,8 +22,11 @@ Det blir flest ombyttninger om arrayet er sortert "feil vei". DVS fra minst til 
 Når blir det færrest?
 Når listen er sortert "riktig vei", DVS fra størst til minst
 
+opp2 >> en for løkke som looper gjennom arrayet for å se om det finnes større tall enn det utvalget og
+da byttes det tallet med den større tallet. hver gang dette skjer så teller går en opp.
+har i tillegg exception funskjon som kastes om arrayet er ikke sortert stigende.
 
-
+opp3 >> 
 
 
 
