@@ -26,8 +26,10 @@ opp2 >> en for løkke som looper gjennom arrayet for å se om det finnes større
 da byttes det tallet med den større tallet. hver gang dette skjer så teller går en opp.
 har i tillegg exception funskjon som kastes om arrayet er ikke sortert stigende.
 
-opp3 >> 
+opp3 >> oppgaven handlet om finne antall uniketall i arrayet vårt og da måtte jeg bruke boolean for å unngå
+duplikater. deretter om det ikke ble funnet to eller flere for en verdi så uniketallet gikk opp.
 
+opp4 >>
 
 
 
