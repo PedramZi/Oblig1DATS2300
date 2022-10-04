@@ -39,21 +39,11 @@ det blir ikke noe rotasjon på en verdig eller nullverdig array. men metodene er
 og ønskende endringposjonen og da begynner elemente flyttes(brukte arraycopy).
 
 opp 7 >> 
+a) String builder setter s og t sammen til en string og da går de gjennom en for_løkke som bruker arrayet sin lengde
+og s, t sin lengde for å finne om de finnes mindre/nærmere verdi for. resultatet blir skreivet ut i en tostring.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+b)
+i den delen lagen ny string builder som tar utgangspunket på summen av array sin lengde og hvis ordet er større
+enn array sin lengde så skrives ut. så har vi en while løkke for å sjekke telleren mot stringen om det finnes 
+enn større så skrives ut hvis ikke så er det if setning for oppstart ellers forsettes i++ til vi looper ut.
+til slutt to stringen skrives ut også.
