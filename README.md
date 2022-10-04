@@ -12,5 +12,8 @@ I oppgaven har vi hatt følgende arbeidsfordeling:
 
 # Oppgavebeskrivelse
 
-Alle oppgavene har blitt forklart underveis på kommentarene. og ellers skulle det ha blitt forklart her også men har 
-dårlig tid så takker jeg meg selv.
+opp1 >> en for løkke som sjekker verdiene til indeksene og setter den som er større enn den andre. og da
+returneres største tallet.  en teller funksjon som teller hvor mange ganger verdier har blitt sammenlignet
+for å komme til den største tallet. I tillegg har en funskjon for tømme tabeller som blir skrevet en 
+feilmelding ut til brukeren.
+
