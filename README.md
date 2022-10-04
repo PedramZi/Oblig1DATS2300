@@ -17,3 +17,27 @@ returneres største tallet.  en teller funksjon som teller hvor mange ganger ver
 for å komme til den største tallet. I tillegg har en funskjon for tømme tabeller som blir skrevet en 
 feilmelding ut til brukeren.
 
+Når blir det flest ombyttinger?
+Det blir flest ombyttninger om arrayet er sortert "feil vei". DVS fra minst til størst.
+Når blir det færrest?
+Når listen er sortert "riktig vei", DVS fra størst til minst
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
