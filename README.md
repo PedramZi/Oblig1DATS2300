@@ -29,7 +29,13 @@ har i tillegg exception funskjon som kastes om arrayet er ikke sortert stigende.
 opp3 >> oppgaven handlet om finne antall uniketall i arrayet vårt og da måtte jeg bruke boolean for å unngå
 duplikater. deretter om det ikke ble funnet to eller flere for en verdi så uniketallet gikk opp.
 
-opp4 >>
+opp4 >> sorterer arrayet med quicksort. etter det så ble satt en for løkke for å loope gjennom arrayet
+og sette partallene samme og ellers er de oddetall så settes de også sammen. etter at de ble sortert så brukte
+en metode for quick-sort med venstre og høyre side for å ha odde og par tallene for sin side. da fant jeg med pivoten
+midten av arrayet og fikset resten der ifra.
+
+opp5 >> 
+
 
 
 
