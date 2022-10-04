@@ -34,7 +34,12 @@ og sette partallene samme og ellers er de oddetall så settes de også sammen. e
 en metode for quick-sort med venstre og høyre side for å ha odde og par tallene for sin side. da fant jeg med pivoten
 midten av arrayet og fikset resten der ifra.
 
-opp5 >> 
+opp5 >>  I tillegg hadde en if test som sier hvis arrayet har en eller null elementer så skrives selve arrayet ut siden
+det blir ikke noe rotasjon på en verdig eller nullverdig array. men metodene er satt sånn at de får inn lengde 
+og ønskende endringposjonen og da begynner elemente flyttes(brukte arraycopy).
+
+opp 7 >> 
+
 
 
 
